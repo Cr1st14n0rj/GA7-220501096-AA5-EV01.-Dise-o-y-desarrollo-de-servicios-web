@@ -1,0 +1,7 @@
+services:
+  servicio-login:
+    build: .
+    container_name: servicio-login
+    ports:
+      - "8080:8080"
+    restart: unless-stopped
